@@ -1,4 +1,4 @@
-FROM mbnunes/vlk-ubuntu14.04
+FROM debian:jessie
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN \
