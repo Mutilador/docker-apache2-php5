@@ -1,4 +1,4 @@
-FROM mbnunes:vlk-ubuntu14.04
+FROM mbnunes/vlk-ubuntu14.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN \
@@ -29,6 +29,7 @@ RUN \
         php5-xdebug \
         php5-intl \
         php5-xmlrpc \
+        php5-cgi \
         php5-apcu \
         php5-mongo \
         php5-redis \
